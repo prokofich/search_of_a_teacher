@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_item_pr2_pr"
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="предмет"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/id_item_pr2_price"
+            android:layout_width="195dp"
+            android:textColor="@color/black"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="цена" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/id_item_pr2_text"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:hint="введите текст о предмете"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/id_item_pr2_button_redact"
+            android:layout_width="100dp"
+            android:text="redact"
+            android:backgroundTint="#6d9ced"
+            android:layout_marginLeft="155dp"
+            android:layout_height="40dp"/>
+        <Button
+            android:id="@+id/id_item_pr2_button_del"
+            android:background="@drawable/ic_delete"
+            android:layout_width="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

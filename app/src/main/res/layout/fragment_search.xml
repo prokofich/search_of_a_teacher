@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/id_search_button_teacher"
+            android:layout_width="180dp"
+            android:text="репетиторы"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#6d9ced"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/id_search_button_uchenik"
+            android:layout_width="180dp"
+            android:text="ученики"
+            android:backgroundTint="#6d9ced"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/id_search_tape_users"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:text="выберите поиск по репетиторам/ученикам"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

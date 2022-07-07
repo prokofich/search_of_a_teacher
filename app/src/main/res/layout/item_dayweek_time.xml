@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/id_item_dayweek_time"
+            android:layout_width="107dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:hint="время"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/id_item_dayweek_predmet"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:hint="предмет"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/id_item_dayweek_button_save"
+        android:layout_width="70dp"
+        android:text="save"
+        android:backgroundTint="#6d9ced"
+        android:textSize="13dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"/>
+
+</LinearLayout>

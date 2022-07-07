@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:background="#6d9ced"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/id_item_search_iv"
+            android:background="@drawable/ic_account"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="80dp"/>
+        <TextView
+            android:layout_width="80dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/id_item_search_tv_status"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="170dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/id_item_searc_tv_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="60dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

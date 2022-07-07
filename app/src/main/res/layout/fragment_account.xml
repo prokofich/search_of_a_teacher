@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <ImageView
+            android:id="@+id/id_account_iv"
+            android:layout_width="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_account"
+            android:layout_marginLeft="20dp"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:id="@+id/id_account_tv_name"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="78dp"
+            android:gravity="center"
+            android:hint="имя"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/id_account_button_settings"
+            android:layout_width="50dp"
+            android:background="@drawable/ic_settings"
+            android:layout_height="50dp"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:text="о себе:"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/id_account_tv_text"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/id_account_button_add"
+        android:layout_width="100dp"
+        android:text="добавить"
+        android:backgroundTint="#6d9ced"
+        android:textSize="11dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/id_account_tape"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

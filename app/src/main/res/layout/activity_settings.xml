@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:background="#6d9ced"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="настройки"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/id_settings_redactdata"
+        android:layout_width="312dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="#6d9ced"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:text="изменить свои данные"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/id_settings_help"
+        android:layout_width="312dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="помощь"
+        android:background="#6d9ced"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/id_settings_exit"
+        android:layout_width="312dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="выйти"
+        android:background="#6d9ced"
+        android:textSize="20dp"
+        android:layout_height="70dp"/>
+
+</LinearLayout>

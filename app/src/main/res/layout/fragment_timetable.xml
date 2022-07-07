@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.TimetableFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_time_pn"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#6d9ced"
+            android:gravity="center"
+            android:text="ПН"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/id_time_vt"
+            android:text="ВТ"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#6d9ced" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_time_sr"
+            android:text="СР"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="#6d9ced" />
+
+        <TextView
+            android:id="@+id/id_time_cht"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="#6d9ced"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ЧТ"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_time_pt"
+            android:text="ПТ"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="#6d9ced" />
+
+        <TextView
+            android:id="@+id/id_time_sb"
+            android:text="СБ"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="#6d9ced" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_time_ws"
+        android:layout_width="368dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="#6d9ced"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="ВС"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="регистрация"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        />
+    <EditText
+        android:hint="введите имя"
+        android:textColor="@color/black"
+        android:id="@+id/id_reg_et_fname"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="70dp"/>
+    <EditText
+        android:hint="введите фамилию"
+        android:textColor="@color/black"
+        android:id="@+id/id_reg_et_lname"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="70dp"/>
+    <EditText
+        android:hint="введите почту"
+        android:textColor="@color/black"
+        android:id="@+id/id_reg_et_mail"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="70dp"/>
+    <EditText
+        android:hint="введите пароль"
+        android:textColor="@color/black"
+        android:id="@+id/id_reg_et_password1"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="70dp"/>
+    <EditText
+        android:hint="повторите пароль"
+        android:textColor="@color/black"
+        android:id="@+id/id_reg_et_password2"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="70dp"/>
+    <EditText
+        android:hint="ученик/репетитор"
+        android:textColor="@color/black"
+        android:id="@+id/id_reg_et_status"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:text="зарегистрироваться"
+        android:id="@+id/id_reg_button_registration"
+        android:layout_width="250dp"
+        android:backgroundTint="#6d9ced"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp"/>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RedactDataActivity">
+
+    <ImageView
+        android:id="@+id/id_redactdata_iv"
+        android:layout_width="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="125dp"
+        android:background="@drawable/ic_account"
+        android:layout_height="150dp"/>
+    <EditText
+
+        android:id="@+id/id_redactdata_tv_name"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:textColor="@color/black"
+        android:hint="имя"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="70dp"/>
+    <EditText
+        android:id="@+id/id_redactdata_tv_fullname"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:hint="фамилия"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="70dp"/>
+    <EditText
+        android:id="@+id/id_redactdata_tv_mobile"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        android:hint="телефон"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="70dp"/>
+
+    <EditText
+        android:id="@+id/id_redactdata_tv_text"
+        android:layout_width="271dp"
+        android:hint="немного о себе"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/id_redactdata_button_save"
+        android:layout_width="150dp"
+        android:layout_marginTop="15dp"
+        android:text="сохранить"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="#6d9ced"
+        android:layout_marginLeft="125dp"
+        android:layout_height="80dp"/>
+
+</LinearLayout>

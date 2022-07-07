@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountStudentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <ImageView
+            android:id="@+id/id_accountstudent_iv"
+            android:layout_width="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_account"
+            android:layout_marginLeft="20dp"
+            android:layout_height="120dp"/>
+        <TextView
+            android:id="@+id/id_accountstudent_tv_name"
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="о себе:"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/id_accountstudent_tv_text"
+        android:layout_width="match_parent"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/id_accountstudent_tape"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+</LinearLayout>
